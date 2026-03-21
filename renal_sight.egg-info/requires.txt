@@ -149,4 +149,5 @@ uvicorn
 python-multipart
 ollama
 huggingface_hub
+google-genai
 python-dotenv

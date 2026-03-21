@@ -1,3 +1,5 @@
 raw_data/
 .env
 previous_models/
+.env.yaml
+.envrc

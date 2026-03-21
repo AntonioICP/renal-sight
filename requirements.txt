@@ -155,6 +155,7 @@ python-multipart
 # VLM
 ollama
 huggingface_hub
+google-genai
 
 # Env
 python-dotenv

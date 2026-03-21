@@ -156,6 +156,7 @@ Requires-Dist: uvicorn
 Requires-Dist: python-multipart
 Requires-Dist: ollama
 Requires-Dist: huggingface_hub
+Requires-Dist: google-genai
 Requires-Dist: python-dotenv
 Dynamic: author
 Dynamic: author-email

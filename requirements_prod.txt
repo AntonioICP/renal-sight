@@ -24,6 +24,7 @@ python-multipart
 
 # LLM / Report Generation
 huggingface_hub
+google-genai
 
 # Utils
 python-dotenv
