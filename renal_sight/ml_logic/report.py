@@ -1,7 +1,5 @@
 import io
 import os
-import base64
-# import ollama
 from PIL import Image
 import tensorflow as tf
 import numpy as np
@@ -78,7 +76,12 @@ def generate_report(image_input,
     return response.text
 
 
+# # ---------------------- FALLBACK OLLAMA -----------------------
+
 # def generate_report(image_input, prediction_label: str, confidence_score: float):
+#     import ollama
+#     import base64
+
 #     # Convert to PIL for report generation
 #     if isinstance(image_input, bytes):
 #         img_pil = Image.open(io.BytesIO(image_input)).convert("RGB")
